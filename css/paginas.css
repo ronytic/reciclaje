@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+    font-size: 16px;
+}
+h2{
+    text-align: center;
+    /* color: #76c625; */
+    padding-bottom: 15px;
+    border-bottom: #76c625 dashed 2px;
+}
+
+#inicio img{
+    transition: all 0.5s;
+    border-radius: 30px;
+}
+#inicio img:hover{
+    transform: scale(1.3);
+    position: relative;
+    z-index: 100;
+}
+
+#nosotros{
+    display: flex;
+
+
+}
+
+#nosotros>div{
+    transition: all 0.5s;
+    text-align: center;
+    color: white;
+    /* border: solid 10px #76c625; */
+    background-color: #FFF;
+    margin: 5px;
+    padding-top: 25px;
+    border: #76c625 1px solid;
+}
+#nosotros>div>div>img{
+    width: 200px;
+    height: 200px;
+    border-radius:200px;
+    border: #76c625 5px solid;
+
+}
+#nosotros>div:hover{
+    transform: scale(1.3);
+    position: relative;
+    z-index: 100;
+}
+#nosotros>div>div#nombre{
+    padding: 15px;
+    background-color: #76c625;
+    color: black;
+    line-height: 2em;
+}
+
+#nosotros>div>div>div{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+
+}
+#nosotros>div>div>div#redessociales{
+    height: 50px;
+    text-align: center;
+    background-color: transparent;
+    padding-top: 15px;
+}
+#nosotros>div>div>div#redessociales img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+}
+#videos>div>p{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin-top: 5px;
+    height: 50px;
+}
+#videos>div{
+    padding: 10px;
+    margin: 10px;
+    background-color: #76c625;
+    height: 400px;
+    width: 45%;
+    float: left;
+}
+#objetivos{
+    font-size: 1.5em;
+}
+#objetivos h3{
+    color: #76c625;
+    padding: 15px;
+}
+#objetivos div{
+    padding: 15px;
+}
+#objetivos div ul{
+    padding-left: 35px;
+    line-height: 2em;
+}
+
+#galeria div{
+    background-color: #FFF;
+    padding: 10px;
+    width: 300px;
+    float:left;
+    margin: 5px;
+    margin-left: 25px;
+    transition: all 0.5s;
+    border: #76c625 1px solid;
+}
+#galeria div p{
+    margin-top: -5px;
+    background-color: #75c6255e;
+    padding:10px;
+}
+#galeria div img{
+    width: 100%;
+    height: 350px;
+
+}
+#galeria div:hover{
+    transform: scale(1.3);
+    position: relative;
+    z-index: 100;
+}
+
+#puntos div{
+    background-color: #FFF;
+    padding: 10px;
+
+    float:left;
+    margin: 5px;
+    margin-left: 25px;
+    transition: all 0.5s;
+    border: #76c625 1px solid;
+}
+#puntos div p{
+    margin-top: -5px;
+    background-color: #75c6255e;
+    padding:10px;
+}
+
+#consejo>div{
+    background-color: #FFF;
+    padding: 10px;
+    float:left;
+    margin: 5px;
+
+    transition: all 0.5s;
+    border: #76c625 1px solid;
+
+}
+#consejo div#imagen{
+    width: 400px;
+    float: left;
+    height: 500px;
+}
+#consejo div#imagen img{
+    width: 100%;
+    height: 100%;
+}
+#consejo div#texto{
+    width: 60%;
+    float:left;
+    margin-left: 10px;
+}
+#consejo div#texto h3{
+    background-color: #76c625;
+    color:white;
+    widows: 100%;
+    padding: 10px;
+    text-align: center;
+}
+#consejo div#texto h2{
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+#consejo div#texto ul{
+    padding-left: 30px;
+}
+#consejo #botones{
+    display: flex;
+}
+#consejo a{
+    background-color: #76c625;
+    border:1px solid #FFF;
+    padding: 5px;
+    display: block;
+    color:#FFF;
+}
+
+#consejo div#texto ul li img{
+    width: 150px;
+    height: 150px;
+}
+#consejo div#texto ul#instrucciones{
+     list-style: none;
+     clear: both;
+}
+#consejo div#texto ul#instrucciones li{
+    background-color: #76c625;
+    padding: 5px;
+    width: 150px;
+
+    display: inline-block;
+    margin: 5px;
+
+}
+#consejo div#texto ul#instrucciones>li{
+    background-color: #75c62569;
+}
