@@ -2,4 +2,4 @@
 
 >Alumnos de 1º de Secundaria
 
->Profesor: Ronald Nina [a link](https://ronaldnina.com/)
+>Profesor: Ronald Nina [www.ronaldnina.com](https://ronaldnina.com/)
